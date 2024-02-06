@@ -1,0 +1,12 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e2dcf2;
+  font-size: 2em;
+  line-height: 1.5;
+  color: #3c1856;
+}
