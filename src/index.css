@@ -6,7 +6,52 @@ body {
   margin: 0;
   padding: 0;
   background-color: #e2dcf2;
-  font-size: 2em;
+  font-size: 1em;
   line-height: 1.5;
   color: #3c1856;
+}
+
+input {
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+button {
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  background: #ada3ca;
+  font-family: inherit;
+}
+
+button:hover {
+  background: #3c1856;
+  color: #e2dcf2;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0.5rem;
+  width: 300px;
+  min-height: 400px;
+  background: white;
+  border-radius: 0.5rem;
 }

@@ -1,4 +1,6 @@
 import './App.css'
+import ToDoList from './components/ToDoList';
+import NewToDo from './components/NewToDo';
 
 // function App() {
 
@@ -8,8 +10,17 @@ import './App.css'
 // }
 
 const App: React.FC = () => {
+  const todos = [{
+    id: 't1', text: 'Finish Typescript course'
+  }];
+
   return (
-    <div>Typescript + React</div>
+    <div>
+      <h1>My Todo List</h1>
+      <NewToDo />
+      {/* a component that lists todos */}
+      <ToDoList items={todos} />
+    </div>
   )
 }
 
